@@ -17,11 +17,11 @@ We have 3 tables, the first one is contains students information. The second one
 
 - 3.Simple Listing
 
-Return Students Listing as JSON.
+Return Students Listing with order ascending by their Fullname (Firstname + Lastname) .
 
 - 4.Relation Listing
 
-Return relational many-to-many mapping between students and class. We will listing  all studetns who has been enrollment on "Math" class and a list of every other class that student has been enrollment.
+Return relational many-to-many mapping between students and class. We will listing  all studetns who has been enrollment on "Math" class and a list of every other class that student has been enrollment with order title class by ascending.
 
 ## Notes
 
