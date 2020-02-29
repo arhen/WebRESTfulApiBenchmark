@@ -1,23 +1,27 @@
 # WebFrameworkBenchmark
-This repository contains project for several web framework with same task. The purpose is to benchmark its performance with [wg/wrk](https://github.com/wg/wrk) on your perspective (local, ur own sevrer, etc).
+This repository contains project for several web framework with the same task. The purpose is to benchmark its performance with [wrk](https://github.com/wg/wrk) on your perspective (local, ur own sevrer, etc).
 
 ## What are we building
-We will benchmarking with real-life case with some scenario. There 4 scenario that we will use:
+We will benchmarking with real-life scenario. There are 4 scenario that we will use:
 
-[-] Hello World
+- 1.Hello World
+
 Simply respond with JSON containing Hello __Hello World__ string.
 
-[-] Computation
+- 2.Computation
+
 Coompute 100.000 Fibonacci Numbers
 
 Start from this scenario, we will use __MySql__ for stroring data. 
-We have 2 tables, the first one is contains owner information. The second one is contains books listing with ownerId as foreign key to pointing who has the book. Ok, lets go.
+We have 3 tables, the first one is contains students information. The second one is contains class listing. Then we have join Table as Enrollment as a result of many-to-many relationship between student-book. Student can enroll on many classes, and classes can be contains more than one students.
 
-[-] Simple Listing
-Return Owner Listing as JSON.
+- 3.Simple Listing
 
-[-] Relation Listing
-Return relational many-to-many mapping between owners and books. We will listing  all owners who has borrowed "Harry Potter" book and everybook that owner has been borrowed.
+Return Students Listing as JSON.
+
+- 4.Relation Listing
+
+Return relational many-to-many mapping between students and class. We will listing  all studetns who has been enrollment on "Math" class and a list of every other class that student has been enrollment.
 
 ## Notes
 
@@ -53,11 +57,11 @@ For building the last two endpoints we’ll use the tools each framework provide
 For good further sake, we will add _CI/CD_ configuration next.
 
 # Contribution
-Feel free to contribute. We want to everyone take advantage or learn something from this benchmark. There are 2 type of contributing to this:
+Feel free to contribute. We want to everyone to take advantage or learn something from this benchmark. There are 2 type of contributing to this:
 
 1. Add new WebAPIFramework
 
-Since we dont have any limitation to what to use, we are open to accept any new web api framework approaches.
+Since we dont have any limitation to use framework, we are open to accept any new web api framework approaches.
 
 2. Edit source code of existing webAPIFramework
 
