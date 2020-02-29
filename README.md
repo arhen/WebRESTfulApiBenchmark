@@ -17,7 +17,7 @@ We have 3 tables, the first one is contains students information. The second one
 
 - 3.Simple Listing
 
-Return Students Listing with order ascending by their Fullname (Firstname + Lastname) .
+Return Students Listing.
 
 - 4.Relation Listing
 
