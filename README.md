@@ -17,11 +17,11 @@ We have 3 tables, the first one is contains students information. The second one
 
 - 3.Simple Listing
 
-Return Students Listing.
+Return Students Listing with fullname instead of firstname & lastname
 
 - 4.Relation Listing
 
-Return relational many-to-many mapping between students and class. We will listing  all studetns who has been enrollment on "Math" class and a list of every other class that student has been enrollment with order title class by ascending.
+Return relational many-to-many mapping between students and class. We will listing  all students with fullname instead of firstname & lastname and order by their fullname. All the students has been enrolled on "Math" class and a list of every other class that student has been enrollment with order title class by ascending.
 
 ## Notes
 
