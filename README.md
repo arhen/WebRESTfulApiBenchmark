@@ -6,7 +6,7 @@ We will benchmarking with real-life scenario. There are 4 scenario that we will 
 
 - 1.Hello World
 
-Simply respond with JSON containing Hello __Hello World__ string.
+Simply respond with JSON containing __Hello World__ string array["Hello", "World"].
 
 - 2.Computation
 
