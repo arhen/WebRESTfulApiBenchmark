@@ -1,3 +1,4 @@
 bin/
 obj/
 .vscode/
+go-mux/apps/apps.exe
