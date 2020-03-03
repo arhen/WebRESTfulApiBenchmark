@@ -12,7 +12,7 @@ Simply respond with JSON containing __Hello World__ string array["Hello", "World
 
 Coompute 100.000 Fibonacci Numbers
 
-Start from this scenario, we will use __MySql__ for stroring data. 
+Start from this scenario, we will use __MySql__ for stroring data.
 We have 3 tables, the first one is contains students information. The second one is contains class listing. Then we have join Table as Enrollment as a result of many-to-many relationship between student-book. Student can enroll on many classes, and classes can be contains more than one students.
 
 - 3.Simple Listing
@@ -42,7 +42,7 @@ We want to make sure that this benchmark will represent our real life scenario a
 
 - __Testing Environment__
 
-For simple use case, we will benchmark with _vps server: 1 CPU, 512 MB - $5 / month_ on digitalocean. 
+For simple use case, we will benchmark with _vps server: 1 CPU, 512 MB - $5 / month_ on digitalocean.
 
 - __Using Docker__
 
@@ -68,6 +68,4 @@ Since we dont have any limitation to use framework, we are open to accept any ne
 We love clean, performance-matter, and KIS principle. If you find any code that affect one of those criteria, we are open for PR. We will review alongside with the contributors of that code.
 
 # License
-MIT
-
-
+USING MIT LICENSE
